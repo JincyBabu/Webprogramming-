@@ -1,0 +1,14 @@
+body {
+  background-color: lightblue;
+}
+
+h2 {
+  color:purple;
+  text-align:center;
+  text-decoration:underline;
+}
+p  {
+  color:navy;
+  font-family:"Lucida Console", "Courier New", monospace;
+  font-size:20px;
+}
