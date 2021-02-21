@@ -31,9 +31,8 @@ font-size:25px;
 <center>
 <br>
 <br>
+<br>
 
-<label>enter any color : 
-<input id="color" type="text" ></label><br><br>
 <button class="button" onclick="changebg()">Set Color</button>
 <h2>JAVASCRIPT</h2>
 <p>Javascript is a client side scripting language used to make web pages interactive.
@@ -42,8 +41,8 @@ On the client side,JavaScript is imlemented as interpreted language.</p>
 
 <script>
 function changebg() {
-var color = document.getElementById("color").value;
-document.bgColor = color;
+var color=prompt("enter any color : ");
+document.body.style.background = color;
 }
 </script>
 
